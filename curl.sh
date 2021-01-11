@@ -1,1 +1,1 @@
-curl 'https://oapi.dingtalk.com/robot/send?access_token=cad451762de13cc3c67275fe9e939ea3f58cca657a3cac94faedb220952df0a7&timestamp=1604315142597&sign=uQ2SvOiYBR1cchX1gHy6dDUiC2XnAz9FPXTWUvdMl%2Bk%3D' -H 'Content-Type: application/json' -d '{"msgtype": "text","text": {"content": "我就是我, 是不一样的烟火"}}'
+curl "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=4b96f1d1-bc8c-4c3b-a325-319c356e42b5" -H "Content-Type: application/json" -d "{\"msgtype\":\"text\",\"text\":{\"content\":\"点鱼酷啦！点鱼酷啦！ @所有人"\"mentioned_mobile_list\":[\"手机号\",\"手机号\",\"手机号\"]}}"
