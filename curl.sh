@@ -1,1 +1,1 @@
-curl "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=4b96f1d1-bc8c-4c3b-a325-319c356e42b5" -H "Content-Type: application/json" -d "{\"msgtype\":\"text\",\"text\":{\"content\":\"点鱼酷啦！点鱼酷啦！ @所有人"\"mentioned_mobile_list\":[\"手机号\",\"手机号\",\"手机号\"]}}"
+   curl 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=4b96f1d1-bc8c-4c3b-a325-319c356e42b5' -H 'Content-Type: application/json' -d '{\'msgtype\':\'text\',\'text\':{\'content\':\'点鱼酷啦！点鱼酷啦！ @所有人'\'mentioned_mobile_list\':[\'手机号\',\'手机号\',\'手机号\']}}'
